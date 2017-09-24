@@ -102,6 +102,11 @@ function build-Android {
         TARGET=ARMV7
         BINARY=32
         ARM_SOFTFP_ABI=1
+	elif [ "${ANDROID_ABI}" = "x86" ]; then
+        CROSS_SUFFIX=$NDK_ROOT/toolchains/x86-4.9/prebuilt/${OS}-${BIT}/bin/i686-linux-android-
+    	SYSROOT=$NDK_ROOT/platforms/android-$ANDROID_NATIVE_API_LEVEL/arch-x86
+        TARGET=ATOM
+        BINARY=32
     elif [ "${ANDROID_ABI}" = "arm64-v8a" ]; then
         CROSS_SUFFIX=$NDK_HOME/toolchains/aarch64-linux-android-4.9/prebuilt/${OS}-${BIT}/bin/aarch64-linux-android-
         SYSROOT=$NDK_HOME/platforms/android-$ANDROID_NATIVE_API_LEVEL/arch-arm64

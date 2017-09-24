@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+2527add1891765eaed4c9db35936920e CMakeFiles/symlink_to_build
+4942166b6842c2b80304b4359fbca213 include/caffe/proto/caffe.pb.cc

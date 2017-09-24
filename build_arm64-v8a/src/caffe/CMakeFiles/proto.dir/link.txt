@@ -1,0 +1,2 @@
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc-ar qc ../../lib/libproto.a  CMakeFiles/proto.dir/__/__/include/caffe/proto/caffe.pb.cc.o
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib ../../lib/libproto.a

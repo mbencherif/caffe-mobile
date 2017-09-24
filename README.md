@@ -66,11 +66,11 @@ $ ./tools/build_android.sh
 Follow the instructions in [Training LeNet on MNIST with Caffe](http://caffe.berkeleyvision.org/gathered/examples/mnist.html) to train your LeNet Model on MNIST. Then copy the model file `caffe/examples/mnist/lenet.prototxt` and the trained weight file `caffe/examples/mnist/lenet_iter_10000.caffemodel` to the SD card root of your Android mobile phone. Check the batch size setting in net.prototxt, set it to `1` if needed.
 
 ```
-$ adb push $CAFFE/examples/mnist/lenet_iter_10000.caffemodel \
+$ adb push examples/mnist/lenet_iter_10000.caffemodel \
      /sdcard/weight.caffemodel
-$ adb push $CAFFE_MOBILE/examples/ios/simple/CaffeSimple/data/net.protobin \
+$ adb push examples/ios/simple/CaffeSimple/data/net.protobin \
      /sdcard/net.protobin
-$ adb push $CAFFE_MOBILE/examples/ios/simple/CaffeSimple/data/test_image.jpg \
+$ adb push examples/ios/simple/CaffeSimple/data/test_image.jpg \
      /sdcard/test_image.jpg
 ```
 

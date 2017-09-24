@@ -1,0 +1,40 @@
+The target system is: Android - 1 - aarch64
+The host system is: Darwin - 16.7.0 - x86_64
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/rizkyario/Desktop/caffe-mobile/build_arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1af94/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1af94.dir/build.make CMakeFiles/cmTC_1af94.dir/build
+Building C object CMakeFiles/cmTC_1af94.dir/CheckIncludeFile.c.o
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc -DANDROID -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64/usr/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64 -funwind-tables -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_1af94.dir/CheckIncludeFile.c.o   -c /Users/rizkyario/Desktop/caffe-mobile/build_arm64-v8a/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1af94
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1af94.dir/link.txt --verbose=1
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc -fexceptions -Wno-psabi --sysroot=/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64 -funwind-tables -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_1af94.dir/CheckIncludeFile.c.o -o cmTC_1af94  -L/libs/arm64-v8a  "/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libsupc++.a"
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/rizkyario/Desktop/caffe-mobile/build_arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d064d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d064d.dir/build.make CMakeFiles/cmTC_d064d.dir/build
+Building C object CMakeFiles/cmTC_d064d.dir/CheckSymbolExists.c.o
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc -DANDROID -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64/usr/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem /Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -fexceptions -Wno-psabi --sysroot=/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64 -funwind-tables -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack   -fPIE   -o CMakeFiles/cmTC_d064d.dir/CheckSymbolExists.c.o   -c /Users/rizkyario/Desktop/caffe-mobile/build_arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d064d
+/usr/local/Cellar/cmake/3.9.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d064d.dir/link.txt --verbose=1
+/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-gcc -fexceptions -Wno-psabi --sysroot=/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/platforms/android-21/arch-arm64 -funwind-tables -fsigned-char -no-canonical-prefixes -fdata-sections -ffunction-sections -Wa,--noexecstack     -Wl,--no-undefined -Wl,-allow-shlib-undefined -Wl,--gc-sections -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fPIE -pie  CMakeFiles/cmTC_d064d.dir/CheckSymbolExists.c.o -o cmTC_d064d  -L/libs/arm64-v8a  "/Users/rizkyario/Library/Developer/Xamarin/android-ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/libsupc++.a"
+
+File /Users/rizkyario/Desktop/caffe-mobile/build_arm64-v8a/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

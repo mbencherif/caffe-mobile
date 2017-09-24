@@ -9,7 +9,7 @@ if [ ! -d "$NDK_HOME" ]; then
     exit 1
 fi
 
-ANDROID_ABIs=("armeabi" "armeabi-v7a with NEON" "arm64-v8a")
+ANDROID_ABIs=("x86")
 
 function build-abi {
     cd third_party
